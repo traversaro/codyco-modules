@@ -1,4 +1,4 @@
-set(robotname bigman_onlyLegs)
+set(robotname bigman_only_legs)
 
 file(GLOB ini ${CMAKE_CURRENT_SOURCE_DIR}/*.ini)
 

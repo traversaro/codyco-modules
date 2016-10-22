@@ -8,7 +8,7 @@ set(ROBOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/${ROBOT_NAME}")
 # If no env variable YARP_ROBOT_NAME is defined
 if(CODYCO_INSTALL_ALL_ROBOTS)
   add_subdirectory(bigman)
-  add_subdirectory(bigman_onlyLegs)
+  add_subdirectory(bigman_only_legs)
   add_subdirectory(iCubGenova01)
   add_subdirectory(iCubGenova02)
   add_subdirectory(iCubGenova03)
